@@ -1,0 +1,48 @@
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+
+.error {
+    color: red;
+    font-size: 18px;
+}
+
+.input-all {
+   margin: auto;
+   width: 60%;
+}
+
+input {
+    margin-bottom: 20px;
+}
+
+.secret-text {
+    margin: auto;
+    width: 50%;
+}
+
+#gif {
+    margin-bottom: 20px;
+}
+
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    padding: 20px;
+  }
+
+  #nav {
+    padding: 30px;
+    background-color: #38023B;
+    margin-bottom: 30px;
+
+    a {
+      font-weight: bold;
+      color: #fff;
+
+      &.router-link-exact-active {
+        color: #28a745;
+      }
+    }
+  }
